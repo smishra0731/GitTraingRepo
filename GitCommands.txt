@@ -20,3 +20,4 @@ git log :- This will u the detail that when the commit was done and who has done
 
 rm -rf .git :- This will delete the current git repository permanently
 
+touch errorLog :- This will create one file with given name e.g. "errorLog" in the current working directory 

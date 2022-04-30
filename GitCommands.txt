@@ -1,0 +1,22 @@
+pwd :- gives the name of Present Working Directory
+
+ls :- Lists the contents whatever is there in the folder
+
+cd :- Used to change the directory
+
+git status :- This command is used to get the status of current working directory whether it is already a git 
+              repository or not
+
+git init :- This command is used to initialize a git repository for current working directory
+
+git add --a :- This will move all the files of current working directory to Staging area, also moved files from untracked to Unmodified stage
+               and git starts tracking these files.
+
+git add FirstText.txt :- This will move mentioned file i.e. only FirstText.txt will move to staging area.
+
+git commit -m "Initial commit" :- This will commit all the files and will show the message written within double quotes.
+
+git log :- This will u the detail that when the commit was done and who has done it along with the message given at the time of commit
+
+rm -rf .git :- This will delete the current git repository permanently
+

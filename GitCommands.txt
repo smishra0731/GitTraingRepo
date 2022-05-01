@@ -36,3 +36,6 @@ git commit -a -m :- This command will commit all the files directly by skiping t
 
 git rm FileToRemove:- This command will remove the file e.g. if the name of file is FileToRemove then git rm FileToRemove
                       will remove FileToRemove file.
+
+git mv FirstText.txt First_Text.txt :- This will rename the file FirstText.txt to First_Text.txt
+

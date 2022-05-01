@@ -33,3 +33,6 @@ git diff --staged :- This will compare the staging area with previous commit
 
 git commit -a -m :- This command will commit all the files directly by skiping the staging area but will not commit 
                     the untracked filed i.e. only tracked files will be commited directly.
+
+git rm FileToRemove:- This command will remove the file e.g. if the name of file is FileToRemove then git rm FileToRemove
+                      will remove FileToRemove file.

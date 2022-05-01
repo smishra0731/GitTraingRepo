@@ -21,3 +21,10 @@ git log :- This will u the detail that when the commit was done and who has done
 rm -rf .git :- This will delete the current git repository permanently
 
 touch errorLog :- This will create one file with given name e.g. "errorLog" in the current working directory 
+
+We can ignore the files by mentioning the file names in one file e.g. if we create a file with name .gitIgnore
+and wants to ignore all files with .log extention then write *.log in .gitIgnore then it will ignore all .log files.
+This works only with the untracked files not with the modified or unmodified files.
+
+git diff :- This command compares the working directory and staging area i.e. if we make any change in any file then
+            thi command will show the changes made in the file between working directory and staging area.

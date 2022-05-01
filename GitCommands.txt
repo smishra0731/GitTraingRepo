@@ -35,11 +35,25 @@ git commit -a -m :- This command will commit all the files directly by skiping t
                     the untracked filed i.e. only tracked files will be commited directly.
 
 git rm FileToRemove:- This command will remove the file e.g. if the name of file is FileToRemove then git rm FileToRemove
-                      will remove FileToRemove file.
+                      will remove i.e. delete mentioned file.
 
 git mv FirstText.txt First_Text.txt :- This will rename the file FirstText.txt to First_Text.txt
 
 git rm --cached fileName :- This command will move the specified file from tracked to untracked mode i.e. initially
                             the was was tracked by git but after running this command the file will not be tracked
                             by git and the changes done in this file will not be tracked
+
+git log -p :- This command gives u all commits
+git log -p 2 :- This command will show u only 2 last commits if we change 2 to 3 then it will show u 3 last commits
+
+git log --stat :- This commands gives details of commits in a short description
+
+git log --pretty = oneline :- This command gives the commit details in one line
+git log --pretty = short :- This command gives the commit details in short description
+git log --pretty = full :- This command gives the commit details in full description
+
+git log --since=2.days :- This command gives the details of commits done in last 2 days
+git log --since=2.weeks :- This command gives the details of commits done in last 2 weeks
+git log --since=2.months :- This command gives the details of commits done in last 2 months
+git log --since=2.years :- This command gives the details of commits done in last 2 years
 

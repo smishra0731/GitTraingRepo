@@ -39,3 +39,7 @@ git rm FileToRemove:- This command will remove the file e.g. if the name of file
 
 git mv FirstText.txt First_Text.txt :- This will rename the file FirstText.txt to First_Text.txt
 
+git rm --cached fileName :- This command will move the specified file from tracked to untracked mode i.e. initially
+                            the was was tracked by git but after running this command the file will not be tracked
+                            by git and the changes done in this file will not be tracked
+

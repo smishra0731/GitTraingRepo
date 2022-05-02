@@ -57,3 +57,8 @@ git log --since=2.weeks :- This command gives the details of commits done in las
 git log --since=2.months :- This command gives the details of commits done in last 2 months
 git log --since=2.years :- This command gives the details of commits done in last 2 years
 
+git restore --staged fileName :- This command is used to unstage the file from staging area.
+git checkout -- fileName :- This command will revert the changes of file to previous commit i.e. if any change is done 
+                             then it will show the content of previous commit
+git checkout -f :- This will move from current commit to previous commit i.e. all the modified changes will be removed.
+
